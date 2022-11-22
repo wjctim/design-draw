@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T03:20:57.022Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="QYh4ot5CZkRAd6yq2u6j" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T03:36:29.960Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="4XgOtVKQd-FedFETN5eP" version="20.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
@@ -128,11 +128,11 @@
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-115" value="return 图片地址" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-113" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="243" as="targetPoint" />
+            <mxPoint x="160" y="243" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-117" value="mongodb" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;rounded=0;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1041" y="80" width="166" height="690" as="geometry" />
+          <mxGeometry x="1041" y="80" width="166" height="930" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-119" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-117">
           <mxGeometry x="79" y="220" width="10" height="30" as="geometry" />
@@ -149,7 +149,7 @@
         <mxCell id="tQQ8MLweX-jRAEpyJud6-122" value="&lt;b&gt;Loop [deep - 1 &amp;gt; 0]&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=166;height=20;" vertex="1" parent="1">
           <mxGeometry x="430" y="352" width="740" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-120" value="common.db.Areas.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.3;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-119" parent="1" source="tQQ8MLweX-jRAEpyJud6-72">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-120" value="db.Areas.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.3;exitY=0.062;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-119" parent="1" source="tQQ8MLweX-jRAEpyJud6-72">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="772" y="300" as="sourcePoint" />
           </mxGeometry>
@@ -161,7 +161,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-133" value="&lt;b&gt;Break [&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;check_seller_account_is_registered() 为 true&lt;/span&gt;]&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=420;height=25;" vertex="1" parent="1">
-          <mxGeometry x="270" y="626.5" width="990" height="473.5" as="geometry" />
+          <mxGeometry x="270" y="626.5" width="910" height="463.5" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-134" value="ids-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
           <mxGeometry x="578" y="80" width="90" height="680" as="geometry" />
@@ -169,7 +169,7 @@
         <mxCell id="tQQ8MLweX-jRAEpyJud6-151" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-134">
           <mxGeometry x="40" y="592" width="10" height="48" as="geometry" />
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-144" value="common.db.Areas.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-143" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-144" value="db.Areas.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-143" parent="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="380" as="sourcePoint" />
           </mxGeometry>
@@ -179,7 +179,7 @@
             <mxPoint x="470" y="418" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-147" value="common.db.region.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-147" value="db.region.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=1.2;exitY=0.25;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tQQ8MLweX-jRAEpyJud6-91">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="480" y="500" as="sourcePoint" />
             <mxPoint x="1119" y="498" as="targetPoint" />
@@ -191,24 +191,40 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-152" value="getId() 获取 seller_id" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.075;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-151" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-152" value="getId() 获取 seller_id" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.075;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.25" y="672.002" as="sourcePoint" />
+            <mxPoint x="320.25" y="675.002" as="sourcePoint" />
+            <mxPoint x="618" y="675" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-153" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-151" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-153" value="return i64" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="718" as="targetPoint" />
+            <mxPoint x="310" y="720" as="targetPoint" />
+            <mxPoint x="618" y="719.5999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-155" value="ids.db.ids.find_one_and_update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-154" parent="1" source="tQQ8MLweX-jRAEpyJud6-151">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-155" value="db.ids.find_one_and_update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-154" parent="1" source="tQQ8MLweX-jRAEpyJud6-151">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1049" y="637" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-156" value="return&amp;nbsp;&amp;nbsp;+ 1 后的 seller_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=1;entryY=0.938;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-154" parent="1" target="tQQ8MLweX-jRAEpyJud6-151">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-156" value="return&amp;nbsp;&amp;nbsp;+ 1 后的 seller_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=-0.1;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-151">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="745" y="715" as="targetPoint" />
+            <mxPoint x="628" y="712.0239999999999" as="targetPoint" />
+            <mxPoint x="1119" y="710" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-157" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
+          <mxGeometry x="1119" y="740" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-158" value="db.Seller.insert_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.055;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-157" parent="1" source="tQQ8MLweX-jRAEpyJud6-133">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1049" y="740" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-159" value="return 卖家信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-157" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="778" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
