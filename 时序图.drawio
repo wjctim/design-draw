@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-11-22T06:59:00.463Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="JRdESdZ2PE-bstTNqmEz" version="20.5.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-11-22T09:28:21.499Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="NxKXePm2ju-1WpDPnkDb" version="20.5.3" type="github">
   <diagram id="kgpKYQtTHZ0yAKxKKP6v" name="Page-1">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="1920" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="tQQ8MLweX-jRAEpyJud6-17" value="seller-api" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="117" y="80" width="100" height="1610" as="geometry" />
+          <mxGeometry x="117" y="80" width="100" height="1600" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-19" value="/sign-up" style="verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;shadow=0;strokeWidth=1;" edge="1" parent="tQQ8MLweX-jRAEpyJud6-17" source="tQQ8MLweX-jRAEpyJud6-33">
           <mxGeometry x="0.1667" y="10" relative="1" as="geometry">
@@ -15,13 +15,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-110" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-17">
-          <mxGeometry x="45" y="1538" width="10" height="48" as="geometry" />
+          <mxGeometry x="45" y="1423" width="10" height="48" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-111" value="gen_token() 生成账户token" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;entryX=1;entryY=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-110" parent="tQQ8MLweX-jRAEpyJud6-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="53" y="1518" as="sourcePoint" />
+            <mxPoint x="53" y="1403" as="sourcePoint" />
             <Array as="points">
-              <mxPoint x="75" y="1518" />
+              <mxPoint x="75" y="1403" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -92,7 +92,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-99" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
-          <mxGeometry x="310" y="1030" width="10" height="480" as="geometry" />
+          <mxGeometry x="310" y="1030" width="10" height="270" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-100" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;verify_login_account()&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-99">
           <mxGeometry relative="1" as="geometry">
@@ -100,32 +100,22 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-101" value="return &amp;lt;&amp;lt;seller.SellerLogin&amp;gt;&amp;gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=0.48;entryY=0.843;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
-          <mxGeometry x="-0.0323" y="33" relative="1" as="geometry">
-            <mxPoint x="165" y="1297.2" as="targetPoint" />
-            <mxPoint x="310" y="1296.4999999999995" as="sourcePoint" />
+          <mxGeometry x="-0.0331" y="20" relative="1" as="geometry">
+            <mxPoint x="165" y="1300.2" as="targetPoint" />
+            <mxPoint x="310" y="1299.4999999999995" as="sourcePoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-104" value="cube-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="754" y="80" width="90" height="1610" as="geometry" />
+          <mxGeometry x="580" y="80" width="90" height="1600" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-107" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-104">
-          <mxGeometry x="40" y="1271" width="10" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-108" value="create_app_id() 创建开发者信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-107">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="166.5" y="1351" as="sourcePoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-109" value="return" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="tQQ8MLweX-jRAEpyJud6-107">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="170" y="1389" as="targetPoint" />
-          </mxGeometry>
+          <mxGeometry x="40" y="1271" width="10" height="119" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-112" value="return 卖家账号信息、账号token" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
           <mxGeometry x="-0.095" y="-10" relative="1" as="geometry">
-            <mxPoint x="160" y="1665" as="sourcePoint" />
-            <mxPoint x="49.5" y="1665" as="targetPoint" />
+            <mxPoint x="160" y="1550" as="sourcePoint" />
+            <mxPoint x="49.5" y="1550" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -147,10 +137,13 @@
           <mxGeometry x="78" y="416" width="10" height="39" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-154" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-117">
-          <mxGeometry x="78" y="597" width="10" height="40" as="geometry" />
+          <mxGeometry x="78" y="606" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-171" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Break [&lt;/b&gt;&lt;b style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;没有找到登录凭证&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;]&lt;/b&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=180;height=30;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-117">
           <mxGeometry x="-771" y="1010" width="900" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-188" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-117">
+          <mxGeometry x="78" y="1339" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-122" value="&lt;b&gt;Loop [deep - 1 &amp;gt; 0]&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=166;height=20;" vertex="1" parent="1">
           <mxGeometry x="430" y="352" width="740" height="80" as="geometry" />
@@ -167,13 +160,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-133" value="&lt;b&gt;Break [&lt;span style=&quot;font-size: 11px; text-align: left; background-color: rgb(255, 255, 255);&quot;&gt;check_seller_account_is_registered() 为 true&lt;/span&gt;]&lt;/b&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=420;height=25;" vertex="1" parent="1">
-          <mxGeometry x="270" y="626.5" width="900" height="303.5" as="geometry" />
+          <mxGeometry x="270" y="635.5" width="900" height="303.5" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-134" value="ids-service" style="shape=umlLifeline;perimeter=lifelinePerimeter;container=1;collapsible=0;recursiveResize=0;rounded=0;shadow=0;strokeWidth=1;" vertex="1" parent="1">
-          <mxGeometry x="578" y="80" width="90" height="680" as="geometry" />
+          <mxGeometry x="734" y="80" width="90" height="1600" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-151" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-134">
-          <mxGeometry x="40" y="592" width="10" height="48" as="geometry" />
+          <mxGeometry x="40" y="601" width="10" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-185" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="tQQ8MLweX-jRAEpyJud6-134">
+          <mxGeometry x="40" y="1286" width="10" height="48" as="geometry" />
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-186" value="getId() 获取 App Auth ID" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0;exitY=0.082;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="tQQ8MLweX-jRAEpyJud6-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-114" y="1290.038" as="sourcePoint" />
+            <mxPoint x="40" y="1289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-187" value="return +1后的App Auth ID" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=-0.1;entryY=0.358;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="tQQ8MLweX-jRAEpyJud6-134">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-115" y="1333.922" as="targetPoint" />
+            <mxPoint x="40" y="1333.6" as="sourcePoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-144" value="db.Areas.find_one()" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-143" parent="1">
           <mxGeometry relative="1" as="geometry">
@@ -197,62 +205,62 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-152" value="getId() 获取 seller_id" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.075;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-152" value="getId() 获取 seller_id" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=0.075;exitY=0.372;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-151" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.25" y="675.002" as="sourcePoint" />
-            <mxPoint x="618" y="675" as="targetPoint" />
+            <mxPoint x="320.25" y="684.002" as="sourcePoint" />
+            <mxPoint x="618" y="684" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-153" value="return i64" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-153" value="return i64" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0.1;exitY=0.979;rounded=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-151" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="720" as="targetPoint" />
-            <mxPoint x="618" y="719.5999999999999" as="sourcePoint" />
+            <mxPoint x="310" y="729" as="targetPoint" />
+            <mxPoint x="618" y="728.5999999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-155" value="db.ids.find_one_and_update()" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-154" parent="1" source="tQQ8MLweX-jRAEpyJud6-151">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-155" value="db.ids.find_one_and_update() 更新seller_id + 1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;exitX=1.1;exitY=0.271;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-154" parent="1" source="tQQ8MLweX-jRAEpyJud6-151">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="1049" y="637" as="sourcePoint" />
+            <mxPoint x="1049" y="646" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="tQQ8MLweX-jRAEpyJud6-156" value="return&amp;nbsp;&amp;nbsp;+ 1 后的 seller_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=-0.1;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-151">
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-156" value="return&amp;nbsp; seller_id" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;entryX=-0.1;entryY=0.813;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-151">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="628" y="712.0239999999999" as="targetPoint" />
-            <mxPoint x="1119" y="710" as="sourcePoint" />
+            <mxPoint x="628" y="721.0239999999999" as="targetPoint" />
+            <mxPoint x="1119" y="719" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-157" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1119" y="822" width="10" height="40" as="geometry" />
+          <mxGeometry x="1119" y="831" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-158" value="db.Seller.insert_one() 创建卖家账号信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.055;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="tQQ8MLweX-jRAEpyJud6-157" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.04999999999995" y="822.0574999999999" as="sourcePoint" />
+            <mxPoint x="320.04999999999995" y="831.0574999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-159" value="return 卖家信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" source="tQQ8MLweX-jRAEpyJud6-157" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="860" as="targetPoint" />
+            <mxPoint x="310" y="869" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-160" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1119" y="873" width="10" height="40" as="geometry" />
+          <mxGeometry x="1119" y="882" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-163" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;db.SellerLogin.insert_one() 创建卖家登录信息&lt;/span&gt;" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=dash;startFill=0;endSize=6;startSize=6;rounded=0;entryX=-0.1;entryY=0.375;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
           <mxGeometry width="160" relative="1" as="geometry">
-            <mxPoint x="320" y="892" as="sourcePoint" />
-            <mxPoint x="1118" y="892" as="targetPoint" />
+            <mxPoint x="320" y="901" as="sourcePoint" />
+            <mxPoint x="1118" y="901" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-164" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1119" y="750" width="10" height="40" as="geometry" />
+          <mxGeometry x="1119" y="759" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-165" value="db.SellerAddress.insert_one() 创建卖家地址信息" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.055;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-164">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.04999999999995" y="750.0574999999999" as="sourcePoint" />
+            <mxPoint x="320.04999999999995" y="759.0574999999999" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-166" value="return 卖家地址信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="tQQ8MLweX-jRAEpyJud6-164">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="788" as="targetPoint" />
+            <mxPoint x="310" y="797" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-167" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
@@ -269,19 +277,32 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-178" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;Break [&lt;/b&gt;&lt;b style=&quot;font-size: 11px; background-color: rgb(255, 255, 255);&quot;&gt;账号被锁&lt;/b&gt;&lt;b style=&quot;background-color: initial;&quot;&gt;]&lt;/b&gt;&lt;/div&gt;" style="shape=umlFrame;whiteSpace=wrap;html=1;rounded=0;shadow=1;glass=0;sketch=0;width=165;height=30;" vertex="1" parent="1">
-          <mxGeometry x="285" y="1124" width="870" height="116" as="geometry" />
+          <mxGeometry x="285" y="1129" width="870" height="116" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-181" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;rounded=0;shadow=1;glass=0;sketch=0;" vertex="1" parent="1">
-          <mxGeometry x="1119" y="1166" width="10" height="40" as="geometry" />
+          <mxGeometry x="1119" y="1171" width="10" height="40" as="geometry" />
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-182" value="db.SellerLogin.find_one_and_update() 获取并更新卖家登录信息（登录ip、登录时间）" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;rounded=0;exitX=0.055;exitY=0.245;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-181">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320.04999999999995" y="1166.0575" as="sourcePoint" />
+            <mxPoint x="320.04999999999995" y="1171.0575" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="tQQ8MLweX-jRAEpyJud6-183" value="return 卖家登录信息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;exitX=0;exitY=0.95;rounded=0;" edge="1" parent="1" source="tQQ8MLweX-jRAEpyJud6-181">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="310" y="1204" as="targetPoint" />
+            <mxPoint x="310" y="1209" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-191" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;db.AppAuth.insert_one() 创建应用授权&lt;/span&gt;" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=dash;startFill=0;endSize=6;startSize=6;rounded=0;entryX=0.1;entryY=0.52;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="tQQ8MLweX-jRAEpyJud6-188">
+          <mxGeometry x="0.0612" width="160" relative="1" as="geometry">
+            <mxPoint x="630" y="1445" as="sourcePoint" />
+            <mxPoint x="790" y="1445" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tQQ8MLweX-jRAEpyJud6-192" value="&lt;span style=&quot;font-size: 11px;&quot;&gt;create_app_id() 创建开发者信息&lt;/span&gt;" style="edgeStyle=elbowEdgeStyle;fontSize=12;html=1;endArrow=blockThin;endFill=1;startArrow=dash;startFill=0;endSize=6;startSize=6;rounded=0;exitX=0.48;exitY=0.808;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.1;entryY=0.216;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="165" y="1353.88" as="sourcePoint" />
+            <mxPoint x="619" y="1354.024" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
