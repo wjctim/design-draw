@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2022-11-24T08:28:31.212Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" version="20.5.3" etag="TueOJCS548Kr38QTRqq_" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7VpNc5swEP01PnYGEHbcY+PmY6ZOJjM+9KwgBdQK5BHCmPz6SkYyn8EkxglOmkvQYxHSe6vdlfAELMLtDYfr4I4hTCeOhbYT8HPiOLbjAPlPIVmOzNxpDvicIG1UACvyjDVoaTQhCMcVQ8EYFWRdBT0WRdgTFQxyztKq2ROj1beuoY8bwMqDtIn+JkgEOTp3Lgr8FhM/MG+2Z9/zOyE0xnomcQARS0sQuJqABWdM5FfhdoGpIs/wkj93/cLd/cA4jkSfB9D9Nrv/deFdzB+X6SZG+O52+s3Wo91AmugZP0h69YhFZmiIUxJSGMnWZSBCKkFbXnoBoWgJM5aoEcQCen9N65LjWIr5YIZn16A7qFzEUv0xTp5ZJCDVgOyHC+0JTtVipV6hzZrz15RsMBd4W4I0HzeYhVjwTJrs3VNrk9XaaSG1O9VYUJIZzDQItXv5+74LBeSFFuEVghjHKgnSEAMj6aK6ybgImM8iSK8K9JKzJEIYaaYKmyVjay3GHyxEplmGiWBVZRGMg93zqoEj9EMtJdmM2M4HJHJNKH1RiU5fi1nCPdzFgasXOuQ+7urRmeWGipBOvTmmUJBNdU0Prh2wP0KqkjoehXFMvIpA9ikEmvcUCFjjEmj6X6AaI+64BJp/FYFmfQUaPMTtHpXzhVnJYM1IJOJSzw8KKGXKeTVTArdWbNTsXavTXl7kIyhcZT+VI3Kn1cidS1WzOFYzMLcXNB2lx9tyXf9apK30AC2lx75GGb70mI6i9OjJ8L6sPrjUQN9qYlyx0Iy7Uw5K5UZI0Z4GRODVGu6oSOVe7ChS+7utW13nbosXtzixezIfdg+TVvXQA8Q9ycV/DUNC1QRvMd1gQTyob2gfth3dXjDK+O4lwNr9SRxS4kcqs0jmMT+lFPXdDGhqMW/R4mRbGdDHgc8pu/cOOYb5w9ndGVXIAc0E+mVWTz2Sffjqcc4h/O8PQsYS/+0Ga7oEbLI32hKw6zTqnUvC5vHgmYdwsxMYbINmttojCeFm3J8ghB99nPvRIdy4RqcWAQsfk/hT6eCMLSk0U6lOCuDskkIrme+bFMA4PlEMmBTM+A/W9X0/TAx/anecYp9nV2yW8pvr+pai6n3r+j4JevxJ4dU61HcKLcl5oKQgm8VX9fxsufhtArj6Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-11-24T09:21:13.733Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.60 Safari/537.36" etag="7J0b9k5t_WcvnM4GT7Pa" version="20.5.3" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sHxnT-b31el_aMywGtVJ-11" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;开店流程图&lt;/b&gt;" style="swimlane;html=1;startSize=40;fontStyle=0;collapsible=0;horizontal=1;swimlaneLine=1;strokeWidth=1;swimlaneFillColor=#ffffff;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="180" y="160" width="480" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-23" value="卖家入驻平台" style="swimlane;startSize=20;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-11">
+          <mxGeometry y="40" width="240" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-23" source="sHxnT-b31el_aMywGtVJ-25" target="sHxnT-b31el_aMywGtVJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-25" value="登录卖家账号" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-23">
+          <mxGeometry x="65" y="40" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-23" source="sHxnT-b31el_aMywGtVJ-26" target="sHxnT-b31el_aMywGtVJ-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-26" value="填写店铺信息" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-23">
+          <mxGeometry x="47.5" y="140" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-31" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-23" source="sHxnT-b31el_aMywGtVJ-28" target="sHxnT-b31el_aMywGtVJ-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-41" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-23" source="sHxnT-b31el_aMywGtVJ-28" target="sHxnT-b31el_aMywGtVJ-40">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-28" value="校验通过" style="rhombus;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-23">
+          <mxGeometry x="55" y="250" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-40" value="提交店铺申请" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-23">
+          <mxGeometry x="47.5" y="383" width="95" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-32" value="B2C运营管理后台" style="swimlane;startSize=20;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-11">
+          <mxGeometry x="240" y="40" width="240" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sHxnT-b31el_aMywGtVJ-32" target="sHxnT-b31el_aMywGtVJ-36">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="sHxnT-b31el_aMywGtVJ-32" target="sHxnT-b31el_aMywGtVJ-38">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="95" y="200" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-43" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-32" source="sHxnT-b31el_aMywGtVJ-39" target="sHxnT-b31el_aMywGtVJ-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-39" value="进入店铺申请详情" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-32">
+          <mxGeometry x="57.5" y="50" width="102.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-32" source="sHxnT-b31el_aMywGtVJ-42" target="sHxnT-b31el_aMywGtVJ-51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-42" value="设置类目佣金、自动接受时间" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-32">
+          <mxGeometry x="57.5" y="150" width="102.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-32" source="sHxnT-b31el_aMywGtVJ-51" target="sHxnT-b31el_aMywGtVJ-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-51" value="提交审核结果" style="rounded=0;whiteSpace=wrap;html=1;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-32">
+          <mxGeometry x="57.5" y="260" width="102.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-54" value="结束" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1;fontSize=14;" vertex="1" parent="sHxnT-b31el_aMywGtVJ-32">
+          <mxGeometry x="78.75" y="400" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=classic;endFill=1;fontSize=14;" edge="1" parent="sHxnT-b31el_aMywGtVJ-11" source="sHxnT-b31el_aMywGtVJ-40" target="sHxnT-b31el_aMywGtVJ-39">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="180" y="453" />
+              <mxPoint x="180" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sHxnT-b31el_aMywGtVJ-44" value="&lt;b style=&quot;font-size: 14px;&quot;&gt;疑问：&lt;br&gt;1、运营管理后台拒绝店铺申请也需要设置类目佣金、自动接受时间&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="740" width="430" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
