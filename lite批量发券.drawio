@@ -1,9 +1,66 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.6">
   <diagram name="第 1 页" id="kQSBnKhALhc9RWPOjqtW">
-    <mxGraphModel>
+    <mxGraphModel dx="1687" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0BRnmIeRcuPj22AUap6a-24" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="10" width="840" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-16" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-1" target="0BRnmIeRcuPj22AUap6a-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-1" value="登录神策智能运营后台系统" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="80" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-2" target="0BRnmIeRcuPj22AUap6a-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-2" value="配置发券的计划" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-4" target="0BRnmIeRcuPj22AUap6a-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-4" value="消息服务&lt;div&gt;（通过webhook）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-5" target="0BRnmIeRcuPj22AUap6a-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-5" value="执行批量发放" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-11" target="0BRnmIeRcuPj22AUap6a-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-11" value="系统分批发送领券消息&lt;div&gt;（未生成券）&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="680" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-12" target="0BRnmIeRcuPj22AUap6a-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-12" value="用户打开消息" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="500" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-13" target="0BRnmIeRcuPj22AUap6a-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-13" value="点击领取优惠券" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="294" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0BRnmIeRcuPj22AUap6a-14" target="0BRnmIeRcuPj22AUap6a-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-14" value="系统生成优惠券" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="215" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-15" value="结束" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="110" y="335" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0BRnmIeRcuPj22AUap6a-26" value="神策智能运营批量发券" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=20;fontColor=#6666FF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="20" width="210" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
